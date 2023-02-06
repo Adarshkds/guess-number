@@ -13,7 +13,7 @@ document.querySelector(`.check`).addEventListener(`click`, function () {
   if (!guess) {
     message(`❌ No Brainer ❌`);
   } else if (guess == secretNum) {
-    message(`Big Brainz at work`);
+    message(`Samundar nailed it`);
     document.querySelector(`.number`).textContent = secretNum;
     document.querySelector(`.highscore`).textContent =
       score > highscore ? (highscore = score) : highscore;
